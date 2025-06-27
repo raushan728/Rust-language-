@@ -24,6 +24,7 @@ fn main() {
     // 4. Using unwrap and expect (unsafe, but sometimes ok)
     // let f = File::open("another.txt").unwrap(); // will panic if file missing
     // let f2 = File::open("another.txt").expect("Can't open file"); // panic with message
+    
 
     // 5. Using a function that returns Result with ?
     match read_file("my_file.txt") {
