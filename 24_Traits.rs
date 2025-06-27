@@ -43,7 +43,6 @@ fn welcome(person: &impl Greet) {
     person.greet();
     person.say_bye();
 }
-
 // 6. Main function
 fn main() {
     let s1 = Student {
